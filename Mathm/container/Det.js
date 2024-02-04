@@ -24,7 +24,7 @@ class Det{
             }
         }
     }
-    totriangle(way=0){//way:0down,1up
+    totriangle(way=0){//way:0down,1up 0下三角 1上三角
         if(way){
             var f=[];
             Object.assign(f,this.arr);

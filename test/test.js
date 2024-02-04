@@ -2,16 +2,14 @@ const Science=require("../Science");
 
 // console.log(Science.Mathm.sigma(1,1000,(e)=>e)) //求和,a,b
 
-console.log(new Science.Mathm.I(0.1,0.8).mult(new Science.Mathm.I(4,-2))+"") //虚数相加
-console.log(new Science.Mathm.I(0.1,0.8).add(new Science.Mathm.I(4,-2))+"") //虚数相减
-console.log(new Science.Mathm.I(0.1,0.8).bereduced(new Science.Mathm.I(4,-2))+"") //虚数相减
-console.log(new Science.Mathm.I(0.1,0.8).divide(new Science.Mathm.I(4,-2))+"") //虚数相减
-
-// console.log(new Science.Mathm.I(2,3).bedivide(new Science.Mathm.I(4,-2))+"") //虚数相除 (BUG)
+// console.log(new Science.Mathm.I(0.1,0.8).mult(new Science.Mathm.I(4,-2))+"") //虚数相加
+// console.log(new Science.Mathm.I(0.1,0.8).add(new Science.Mathm.I(4,-2))+"") //虚数相减
+// console.log(new Science.Mathm.I(0.1,0.8).bereduced(new Science.Mathm.I(4,-2))+"") //虚数相减
+// console.log(new Science.Mathm.I(0.1,0.8).divide(new Science.Mathm.I(4,-2))+"") //虚数相减
 
 // console.log(Mathm.Matrix.diag(5).nummult(new Mathm.I(1,2)).trace()+"")
 
-// console.log(new Mathm.Det([[3,1,-1,2],[-5,1,3,-4],[2,0,1,-1],[1,-5,3,-3]]).totriangle().arr)
+console.log(new Science.Mathm.Det([[3,1,-1,2],[-5,1,3,-4],[2,0,1,-1],[1,-5,3,-3]]).totriangle().arr)
 // console.log(new Mathm.Fraction(3,10).add(new Mathm.I(2,3)))
 // console.log(Mathm.log(2,1024))
 // console.log(Mathm.O.mult(new Mathm.I(1,2),new Mathm.Matrix([[1,2],[3,4]])).arr)
