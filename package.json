@@ -1,0 +1,40 @@
+{
+  "name": "mathm",
+  "version": "0.0.2",
+  "description": "Mathematical function integration and operation tools",
+  "keywords": [
+    "math",
+    "science",
+    "compute",
+    "statistics"
+  ],
+  "directories": {
+    "test": "test/"
+  },
+  "main": "Mathm.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Scientifiction/science"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "contributors": [
+    {
+      "name": "Sife-shuo",
+      "email": "sifed@qq.com"
+    },
+    {
+      "name": "tcxone",
+      "email": "tcxone@proton.me"
+    },
+    {
+      "name":"imimbert",
+      "email":"69507devs@gmail.com"
+    }
+  ],
+  "engines": {
+    "node": ">=3.0.0"
+  }
+}
